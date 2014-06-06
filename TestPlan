@@ -1,0 +1,30 @@
+// Playground - noun: a place where people can play
+
+import Cocoa
+
+var str = "Hello, playground"
+
+let pi = 3.141596
+
+var anotherVariable : Double = 40
+
+let description = "Your height is "
+let height : Double = 160
+let aboutYou = description + String(height)
+
+let income : Double = 50;
+let outcome : Double = 42.9;
+let statement = "I have \(income - outcome) dollar"
+
+var arrayTest = ["book", "toy", "friend"]
+let today = "Today I choose \(arrayTest[2])"
+
+var dictionaryTest = ["book":"learn swift",
+                      "author":"iceboxi"]
+let theBook = dictionaryTest["book"];
+//let theDescript = "The book name is \(dictionaryTest["book"])"; // error
+
+let emptyArrayWithType = String[] ()
+let emptyArray = []
+let emptyDictionaryWithType = Dictionary<String, String> ();
+let emptyDictionary = [:]
